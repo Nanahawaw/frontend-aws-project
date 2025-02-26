@@ -37,24 +37,6 @@ This project demonstrates how to:
 2. Configure your AWS credentials
 3. Follow the deployment steps in the documentation
 
-## Project Structure
-
-```
-├── frontend/                # React application
-│   ├── Dockerfile           # Frontend container configuration
-│   └── nginx.conf           # Nginx configuration for frontend
-├── backend/                 # Node.js application
-│   └── Dockerfile           # Backend container configuration
-├── docker-compose.yml       # Service orchestration configuration
-├── nginx/                   # Host Nginx configuration
-├── scripts/                 # Deployment and setup scripts
-│   ├── setup-ec2.sh         # EC2 instance setup script
-│   ├── setup-ebs.sh         # EBS volume mount script
-│   └── monitoring.sh        # Monitoring setup script
-└── .github/workflows/       # CI/CD configuration
-    └── deploy.yml           # GitHub Actions workflow
-```
-
 ## Deployment Steps
 
 See the complete step-by-step guide in my [documentation](LINK_TO_DOCUMENTATION).
